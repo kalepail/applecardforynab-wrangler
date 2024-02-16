@@ -1,0 +1,25 @@
+{
+  "name": "applecardforynab",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "dependencies": {
+    "@tinyanvil/sjcl": "^1.0.8",
+    "bignumber.js": "^9.1.2",
+    "bluebird": "^3.7.2",
+    "itty-router": "^2.6.1",
+    "itty-router-extras": "^0.4.2",
+    "lodash-es": "npm:lodash@^4.17.21",
+    "moment": "^2.30.1",
+    "papaparse": "^5.4.1",
+    "sha.js": "^2.4.11"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.28.2"
+  }
+}
